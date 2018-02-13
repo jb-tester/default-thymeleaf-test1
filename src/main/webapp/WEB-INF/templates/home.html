@@ -6,5 +6,11 @@
 </head>
 <body>
   <h1 th:text="${home_attr2}">text</h1>
+
+  <p  th:utext="${#strings.replace(mytext, '&#13;&#10;', '&lt;br /&gt;')}">some text</p>
+  <p  th:utext="${#strings.replace(mytext, 'ttt', '&#10;')}">new text</p>
+
+  <a th:href="@{page1.html#body}"></a>
+
 </body>
 </html>

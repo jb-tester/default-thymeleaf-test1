@@ -15,6 +15,7 @@ public class MyController {
     @RequestMapping("/")
     public String Method(ModelMap model) {
         model.addAttribute("home_attr1", "test1");
+        model.addAttribute("mytext", "ttt====&#13;&#10;=====ttt");
         model.addAttribute("home_attr2", "this is default thymeleaf configuration test with thymeleaf suffix and prefix set via application properties");
         return "home";
     }
