@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 public class MyController {
+
     @RequestMapping("/")
     public String Method(ModelMap model) {
         model.addAttribute("home_attr1", "test1");
