@@ -1,5 +1,6 @@
 package com.mytests.springboot.webapp.defaults.thymeleaf.defaultthymeleaftest1;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,4 +20,6 @@ public class MyController {
         model.addAttribute("home_attr2", "this is default thymeleaf configuration test with thymeleaf suffix and prefix set via application properties");
         return "home";
     }
+
+
 }
