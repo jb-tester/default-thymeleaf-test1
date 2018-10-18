@@ -1,24 +1,15 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
+# Default ignored files
+/.idea/shelf/
+/.idea/workspace.xml
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
+# Project exclude paths
+/target/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+# Datasource local storage ignored files
+/.idea/dataSources/
+dataSources.local.xml
 
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
+# Editor-based HTTP Client requests
+/.idea/httpRequests/
+rest-client.private.env.json
+http-client.private.env.json
