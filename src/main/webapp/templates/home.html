@@ -9,7 +9,8 @@
 
   <p  th:utext="${#strings.replace(mytext, '&#13;&#10;', '&lt;br /&gt;')}">some text</p>
   <p  th:utext="${#strings.replace(mytext, 'ttt', '&#10;')}">new text</p>
-
+   <p th:text="${bean1}"></p>
+   <p th:text="${bean2}"></p>
   <a th:href="@{page1.html#body}"></a>
 
 </body>
